@@ -1257,6 +1257,8 @@ return {
   "^[!/](link)$",
   "^[!/](kickinactive)$",
   "^[!/](kickinactive) (%d+)$",
+  "^([Ll]ink)$",
+  "^(تنظیمات)$",
   "%[(photo)%]",
   "^!!tgservice (.+)$",
   },
