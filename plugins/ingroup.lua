@@ -89,7 +89,7 @@ function check_member_group(cb_extra, success, result)
       end
       data[tostring(groups)][tostring(msg.to.id)] = msg.to.id
       save_data(_config.moderation.data, data)
-      return send_large_msg(receiver, 'You have been promoted as the owner.')
+      return send_large_msg(receiver, 'به گروه جدید خوش امدید')
     end
   end
 end
