@@ -1029,7 +1029,7 @@ local function run(msg, matches)
        return unlock_group_leave(msg, data, target)
      end
    end
-    if matches[1] == 'settings' then
+    if matches[1] == 'settings' or matches[1] == 'تنظیمات' then
       local target = msg.to.id
       savelog(msg.to.id, name_log.." ["..msg.from.id.."] requested group settings ")
       return show_group_settingsmod(msg, data, target)
